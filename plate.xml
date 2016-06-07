@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<plate>
+	<head>
+		<doctype>html5</doctype>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"/>
+		<googlefont family="Source Sans Pro"/>
+	</head>
+	<clippings>
+		<text name="site_name" name_friendly="Site Name" required="1"><![CDATA[The Fixie]]></text>
+		<images name="logo" name_friendly="Site Logo" limit="1"><![CDATA[https://96178984431a81e5b792-4b62cfe22024291dbe0b0891ef5238a2.ssl.cf2.rackcdn.com/or-fixie-logo.png]]></images>
+		<text name="footer_text" name_friendly="Footer Text"><![CDATA[Footer text can be updated in Content Clippings]]></text>
+		<text name="google_publisher_id" name_friendly="Google Publisher ID"></text>
+	</clippings>
+	<ingredients>
+		<templateset name="homepage" name_friendly="Homepage" view="homepage">
+			<fields>
+				<text name="title" name_friendly="Lead in Title" required="1"/>
+			</fields>
+			<items>
+				<item link_title="Homepage" path_part="zesty_home">
+					<title><![CDATA[Homepage]]></title>
+				</item>
+			</items>
+		</templateset>
+		<dataset name="homepage_slides" name_friendly="Homepage Slides">
+			<fields>
+				<text name="header" name_friendly="Header"/>
+				<wysiwyg_basic name="content" name_friendly="Content"/>
+				<images name="image" name_friendly="Image"/>
+				<text name="link_text" name_friendly="Link Text"/>
+				<internal_link name="links_to" name_friendly="Links To"/>
+				<sort name="sort" name_friendly="Sort"/>
+			</fields>
+			<items>
+				<item link_title="The Affinity Series">
+					<header><![CDATA[The Affinity Series]]></header>
+					<content><![CDATA[<p>Affinity has the privilege of sponsoring some of the most hard core and dedicated riders in the world&hellip; sure they ride for us and they rep the brand</p>]]></content>
+					<image><![CDATA[https://96178984431a81e5b792-4b62cfe22024291dbe0b0891ef5238a2.ssl.cf2.rackcdn.com/or-affinity.jpeg]]></image>
+					<link_text><![CDATA[Check them out]]></link_text>
+					<links_to>501</links_to>
+					<sort>1</sort>
+				</item>
+				<item link_title="The Cinelli">
+					<header><![CDATA[The Cinelli]]></header>
+					<content></content>
+					<image><![CDATA[https://96178984431a81e5b792-4b62cfe22024291dbe0b0891ef5238a2.ssl.cf2.rackcdn.com/or-cinelli.jpeg]]></image>
+					<link_text><![CDATA[View Now]]></link_text>
+					<links_to>501</links_to>
+					<sort>2</sort>
+				</item>
+				<item link_title="Surely it's Surly" path_part="">
+					<header><![CDATA[Surely it's Surly]]></header>
+					<content><![CDATA[<p>Surly designs and produces durable, versatile bikes, frames, &amp; parts for people who ride a lot. No B.S. Unless you deserve it.</p>]]></content>
+					<image><![CDATA[https://96178984431a81e5b792-4b62cfe22024291dbe0b0891ef5238a2.ssl.cf2.rackcdn.com/or-surly.jpeg]]></image>
+					<link_text><![CDATA[Learn more]]></link_text>
+					<links_to>501</links_to>
+					<sort>3</sort>
+				</item>
+			</items>
+		</dataset>
+	</ingredients>
+</plate>

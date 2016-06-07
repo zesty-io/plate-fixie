@@ -1,0 +1,90 @@
+@header-size: 240px;
+
+.z-container {
+	margin: @default-spacing;
+	background: none;
+}
+
+.header-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: @header-size;
+	height: 100%;
+	background: @nav-bg-color;
+	background: fade(#fff, 30%);
+	//.box-shadow(0px 0px 4px #555);
+	z-index: 1000;
+	
+	.logo {
+		padding: 20px;
+		img{
+			width: 100%;	
+		}
+	}
+	
+	ul#nav {
+		padding-left: 24px;
+		
+		li {
+			display:block;
+
+			a {
+				//text-shadow: 0px -1px 0px fade(#000,50%);
+				
+			}
+		}
+	}
+}
+
+// slide modifications
+
+.slides-container {
+	margin: 0px;
+	
+	li {
+		margin: 0px;
+		
+		.container {
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			
+			margin: 20px;
+			
+			background-color: #000;
+			background-color: fade(#000, 30%);
+			
+			max-width: 400px;
+			
+			padding: 20px;
+			
+			text-shadow: 0px -1px 0px #000;
+			color: #fff;
+			h1 {
+				margin-bottom: 0px;
+				color: #fff;
+			}
+			p {
+				color: #fff;	
+			}
+			a {
+				color: @nav-hover-font-color;
+				float:right;
+				font-size: 18px;
+				&:hover{
+					color: #fff;	
+				}
+			}
+		}
+	}
+}
+
+// main page contents
+
+.recipe-wrap{
+	padding: @default-spacing * 2;
+	margin: (@default-spacing * 4) 0px 0px @header-size;
+	background-color: @content-bg-color;
+	
+}
