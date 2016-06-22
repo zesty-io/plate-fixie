@@ -26,12 +26,12 @@
 		</templateset>
 		<dataset name="homepage_slides" name_friendly="Homepage Slides">
 			<fields>
-				<text name="header" name_friendly="Header"/>
+				<text name="header" name_friendly="Header" required="1" list="1"/>
 				<wysiwyg_basic name="content" name_friendly="Content"/>
-				<images name="image" name_friendly="Image"/>
+				<images name="image" name_friendly="Image" required="1" list="1"/>
 				<text name="link_text" name_friendly="Link Text"/>
 				<internal_link name="links_to" name_friendly="Links To"/>
-				<sort name="sort" name_friendly="Sort"/>
+				<sort name="sort" name_friendly="Sort" required="1" list="1" sort_table="1/>
 			</fields>
 			<items>
 				<item link_title="The Affinity Series">
