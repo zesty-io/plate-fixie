@@ -1,3 +1,5 @@
+<!-- This is your homepage. If your site consists of a single page, then make it here. You can always add more pages later. -->
+
 <div id="slides">
 	<ul class="slides-container">
 		{{each homepage_slides as slide order by slide.sort asc}}
