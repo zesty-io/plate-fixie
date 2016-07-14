@@ -8,7 +8,7 @@ The variables listed below will help you get started. Variables will remain cons
     <created_date>2013-10-29</created_date>
     <plate>Developer Plate</plate>
     <created_by>Variable Action</created_by>
-    <kitchen>Zesty</kitchen>
+    <kitchen>Zesty.io</kitchen>
     <variables>
         <color name="body-bg-color" name_friendly="Body Background Color">
             <category>1</category>

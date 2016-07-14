@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <plate>
+	<!-- The head is very similar to the head you would set in a typical website.
+	If you're getting started with jQuery or a Google font, this is the spot to do it -->
 	<head>
 		<doctype>html5</doctype>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
@@ -13,11 +15,14 @@
 		<text name="footer_text" name_friendly="Footer Text"><![CDATA[Footer text can be updated in Content Clippings]]></text>
 		<text name="google_publisher_id" name_friendly="Google Publisher ID"></text>
 	</clippings>
+	<!-- The base content configuration is declared here. We call them ingredients. When building a template you need at least a homepage, but other ingredients can be added as well. Content ingredients can also be added later through the sitemap tool.-->
 	<ingredients>
 		<templateset name="homepage" name_friendly="Homepage" view="homepage">
+			<!-- There are 3 types of content set types: Templatesets - Single Page; Pagesets - Multi-page e.g. articles; and Datasets - tables or supplemental data. Since the homepage is  single page, it is a templateset. -->
 			<fields>
 				<text name="title" name_friendly="Lead in Title" required="1"/>
 			</fields>
+			<!-- Each content set needs to be preloaded with content. You can see that the XML tag names below match the field names above-->
 			<items>
 				<item link_title="Homepage" path_part="zesty_home">
 					<title><![CDATA[Homepage]]></title>
