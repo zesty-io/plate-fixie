@@ -17,11 +17,11 @@ Config -> Content -> Code
 
 Once in your chosen web property, click the dark blue button 'Z Open Manager'.
 
-Click on the Config tab: add a page, page group, or data set. Then add a field or two.
+1. Click on the Config tab: add a page, page group, or data set. Then add a field or two.
 
-Click on the Content tab: Enter your content here.
+2. Click on the Content tab: Enter your content here.
 
-Click on the Editor tab: Code in Parsley, HTML, CSS, Less, JavaScript, etc. to complete your feature.
+3. Click on the Editor tab: Code in Parsley, HTML, CSS, Less, JavaScript, etc. to complete your feature.
 
 This completes the Zesty.io workflow!
 
